@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #f8f8f8;
+  margin: 0;
+  overflow: hidden;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin: 10px auto;
+}
+
+
+.element {
+  background: #eee;
+  padding: 10px;
+  border: 1px solid #777;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  width: 220px;
+  height: 220px;
+  position: relative;
+}
+
+
+button {
+  color: rgba(127,255,255,0.75);
+  background: transparent;
+  outline: 1px solid rgba(127,255,255,0.75);
+  border: 0px;
+  padding: 5px 10px;
+  cursor: pointer;
+  position: relative;
+  z-index: 5000;
+}
+button:hover {
+  background-color: rgba(0,255,255,0.5);
+}
+button:active {
+  color: #000000;
+  background-color: rgba(0,255,255,0.75);
+}
